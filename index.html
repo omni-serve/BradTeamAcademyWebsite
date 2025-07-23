@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brad Team Academy - Transforming Lives Through Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Enhanced Cinematic Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-container">
+            <div class="splash-logo">
+                <div class="logo-animation">
+                    <img src="logo.svg" alt="Brad Team Academy" class="splash-logo-img">
+                </div>
+            </div>
+            <div class="splash-text">
+                <h1 class="splash-title">BRAD TEAM ACADEMY</h1>
+                <div class="splash-line"></div>
+                <p class="splash-subtitle">Excellence in Medical Education</p>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+            <div class="splash-particles"></div>
+        </div>
+    </div>
+
+    <!-- Parallax Background Elements -->
+    <div class="parallax-container">
+        <div class="parallax-layer" data-speed="0.2"></div>
+        <div class="parallax-layer" data-speed="0.5"></div>
+        <div class="parallax-layer" data-speed="0.8"></div>
+    </div>
+
+    <!-- Modern Navigation with Logo -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <!-- <div class="brand-logo">  
+                    <img src="logo.svg" alt="Brad Team Academy" class="brand-logo-img">
+                </div>-->
+                <div class="brand-text">
+                    <span class="brand-name">BRAD TEAM</span>
+                    <span class="brand-subtitle">ACADEMY</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active" data-en="Home" data-ar="الرئيسية">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#articles" class="nav-link" data-en="Research" data-ar="البحوث">
+                    <i class="fas fa-microscope"></i>
+                    <span>Research</span>
+                </a>
+                <a href="#cases" class="nav-link" data-en="Cases" data-ar="الحالات">
+                    <i class="fas fa-clipboard-list"></i>
+                    <span>Cases</span>
+                </a>
+                <a href="#team" class="nav-link" data-en="Team" data-ar="الفريق">
+                    <i class="fas fa-users"></i>
+                    <span>Team</span>
+                </a>
+                <a href="#courses" class="nav-link" data-en="Courses" data-ar="الدورات">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Courses</span>
+                </a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i>
+                    <span class="lang-text">العربية</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cinematic Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="hero-video-overlay"></div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="floating-elements">
+                    <div class="floating-element" data-speed="0.3"></div>
+                    <div class="floating-element" data-speed="0.6"></div>
+                    <div class="floating-element" data-speed="0.9"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span data-en="Excellence in Medical Education" data-ar="التميز في التعليم الطبي">Excellence in Medical Education</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-main" data-en="ARE YOU READY" data-ar="هل أنت مستعد">ARE YOU READY</span>
+                    <span class="title-sub" data-en="to make a lasting impact?" data-ar="لإحداث تأثير دائم؟">to make a lasting impact?</span>
+                </h1>
+                
+                <p class="hero-description" data-en="Partner with Brad Team Academy and join a global movement transforming lives through cutting-edge oral and maxillofacial surgery." data-ar="شارك مع أكاديمية فريق براد وانضم إلى حركة عالمية تحول الحياة من خلال جراحة الفم والوجه والفكين المتطورة.">
+                    Partner with Brad Team Academy and join a global movement transforming lives through cutting-edge oral and maxillofacial surgery.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label" data-en="Surgeons Trained" data-ar="جراح مدرب">Surgeons Trained</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label" data-en="Countries" data-ar="دولة">Countries</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label" data-en="Years" data-ar="سنة">Years</div>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary">
+                        <span data-en="Explore Programs" data-ar="استكشف البرامج">Explore Programs</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</span>
+                        <i class="fas fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="card-status">
+                            <span class="status-dot"></span>
+                            <span data-en="Active Learning" data-ar="تعلم نشط">Active Learning</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 data-en="Advanced Surgery Training" data-ar="تدريب جراحي متقدم">Advanced Surgery Training</h3>
+                        <p data-en="Cutting-edge techniques and methodologies" data-ar="تقنيات ومنهجيات متطورة">Cutting-edge techniques and methodologies</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <div class="progress-text">85% Complete</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section with Parallax -->
+    <section id="articles" class="articles parallax-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-microscope"></i>
+                    <span data-en="Research Excellence" data-ar="التميز البحثي">Research Excellence</span>
+                </div>
+                <h2 data-en="Articles & Research Papers" data-ar="المقالات والأوراق البحثية">Articles & Research Papers</h2>
+                <p data-en="Advancing the field through cutting-edge research and academic excellence" data-ar="تطوير المجال من خلال البحوث المتطورة والتميز الأكاديمي">Advancing the field through cutting-edge research and academic excellence</p>
+            </div>
+            
+            <div class="articles-grid">
+                <article class="article-card">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="article-category" data-en="Research" data-ar="بحث">Research</div>
+                    </div>
+                    <div class="article-content">
+                        <h3 data-en="Advanced Implantology Techniques" data-ar="تقنيات زراعة الأسنان المتقدمة">Advanced Implantology Techniques</h3>
+                        <p data-en="Exploring innovative approaches to dental implantation in complex maxillofacial cases." data-ar="استكشاف الأساليب المبتكرة لزراعة الأسنان في حالات الوجه والفكين المعقدة.">Exploring innovative approaches to dental implantation in complex maxillofacial cases.</p>
+                        <div class="article-meta">
+                            <span class="date">March 2024</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-laptop-medical"></i>
+                        </div>
+                        <div class="article-category" data-en="Clinical Study" data-ar="دراسة سريرية">Clinical Study</div>
+                    </div>
+                    <div class="article-content">
+                        <h3 data-en="Trauma Management in Surgery" data-ar="إدارة الصدمات في الجراحة">Trauma Management in Surgery</h3>
+                        <p data-en="Comprehensive analysis of trauma cases and optimal treatment protocols." data-ar="تحليل شامل لحالات الصدمات وبروتوكولات العلاج المثلى.">Comprehensive analysis of trauma cases and optimal treatment protocols.</p>
+                        <div class="article-meta">
+                            <span class="date">February 2024</span>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="article-card">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="article-category" data-en="Review" data-ar="مراجعة">Review</div>
+                    </div>
+                    <div class="article-content">
+                        <h3 data-en="Digital Planning in Reconstruction" data-ar="التخطيط الرقمي في إعادة البناء">Digital Planning in Reconstruction</h3>
+                        <p data-en="The role of digital technology in modern reconstructive surgery planning." data-ar="دور التكنولوجيا الرقمية في تخطيط الجراحة التجميلية الحديثة.">The role of digital technology in modern reconstructive surgery planning.</p>
+                        <div class="article-meta">
+                            <span class="date">January 2024</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases Section -->
+    <section id="cases" class="cases parallax-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span data-en="Clinical Excellence" data-ar="التميز السريري">Clinical Excellence</span>
+                </div>
+                <h2 data-en="Clinical Cases" data-ar="الحالات السريرية">Clinical Cases</h2>
+                <p data-en="Transformative results showcasing our expertise" data-ar="نتائج تحويلية تُظهر خبرتنا">Transformative results showcasing our expertise</p>
+            </div>
+            
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3 data-en="Complex Reconstruction" data-ar="إعادة بناء معقدة">Complex Reconstruction</h3>
+                        <span class="case-type" data-en="Trauma Case" data-ar="حالة صدمة">Trauma Case</span>
+                    </div>
+                    <div class="case-images">
+                        <div class="before-after">
+                            <div class="case-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-camera"></i>
+                                    <span data-en="Before" data-ar="قبل">Before</span>
+                                </div>
+                            </div>
+                            <div class="case-image success">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-en="After" data-ar="بعد">After</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p data-en="Comprehensive reconstruction restoring function and aesthetics through advanced surgical techniques." data-ar="إعادة بناء شاملة تستعيد الوظيفة والجماليات من خلال التقنيات الجراحية المتقدمة.">Comprehensive reconstruction restoring function and aesthetics through advanced surgical techniques.</p>
+                    <div class="case-stats">
+                        <div class="stat">
+                            <span class="stat-value">95%</span>
+                            <span class="stat-label" data-en="Success Rate" data-ar="معدل النجاح">Success Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">6 months</span>
+                            <span class="stat-label" data-en="Recovery" data-ar="التعافي">Recovery</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3 data-en="Advanced Implant Placement" data-ar="زراعة متقدمة">Advanced Implant Placement</h3>
+                        <span class="case-type" data-en="Implantology" data-ar="زراعة الأسنان">Implantology</span>
+                    </div>
+                    <div class="case-images">
+                        <div class="before-after">
+                            <div class="case-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-camera"></i>
+                                    <span data-en="Before" data-ar="قبل">Before</span>
+                                </div>
+                            </div>
+                            <div class="case-image success">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-en="After" data-ar="بعد">After</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p data-en="Full rehabilitation using advanced techniques and digital planning methodologies." data-ar="إعادة تأهيل كاملة باستخدام التقنيات المتقدمة ومنهجيات التخطيط الرقمي.">Full rehabilitation using advanced techniques and digital planning methodologies.</p>
+                    <div class="case-stats">
+                        <div class="stat">
+                            <span class="stat-value">98%</span>
+                            <span class="stat-label" data-en="Success Rate" data-ar="معدل النجاح">Success Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">3 months</span>
+                            <span class="stat-label" data-en="Recovery" data-ar="التعافي">Recovery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team parallax-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-users"></i>
+                    <span data-en="Meet Our Experts" data-ar="تعرف على خبرائنا">Meet Our Experts</span>
+                </div>
+                <h2 data-en="Our Team" data-ar="فريقنا">Our Team</h2>
+                <p data-en="World-class professionals dedicated to excellence in medical education" data-ar="محترفون عالميون مكرسون للتميز في التعليم الطبي">World-class professionals dedicated to excellence in medical education</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card featured">
+                    <div class="team-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <span class="team-role" data-en="Chairperson" data-ar="رئيس">Chairperson</span>
+                        <h3>Prof. Bassel Al-Brad</h3>
+                        <p data-en="Experienced surgeon specializing in implantology and trauma with over 15 years of expertise." data-ar="جراح ذو خبرة متخصص في زراعة الأسنان والصدمات مع أكثر من 15 عامًا من الخبرة.">Experienced surgeon specializing in implantology and trauma with over 15 years of expertise.</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <span class="team-role" data-en="Senior Instructor" data-ar="مدرب أول">Senior Instructor</span>
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p data-en="Specialist in reconstructive surgery and advanced surgical techniques." data-ar="متخصصة في الجراحة التجميلية والتقنيات الجراحية المتقدمة.">Specialist in reconstructive surgery and advanced surgical techniques.</p>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <div class="team-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <span class="team-role" data-en="Research Director" data-ar="مدير البحوث">Research Director</span>
+                        <h3>Dr. Ahmed Hassan</h3>
+                        <p data-en="Leading researcher in digital surgery planning and innovative methodologies." data-ar="باحث رائد في تخطيط الجراحة الرقمية والمنهجيات المبتكرة.">Leading researcher in digital surgery planning and innovative methodologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses parallax-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span data-en="Professional Development" data-ar="التطوير المهني">Professional Development</span>
+                </div>
+                <h2 data-en="Our Courses" data-ar="دوراتنا">Our Courses</h2>
+                <p data-en="Comprehensive training programs designed for medical professionals" data-ar="برامج تدريبية شاملة مصممة للمهنيين الطبيين">Comprehensive training programs designed for medical professionals</p>
+            </div>
+            
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="course-level beginner" data-en="Beginner" data-ar="مبتدئ">Beginner</div>
+                        <div class="course-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <h3 data-en="Introduction to Surgery" data-ar="مقدمة في الجراحة">Introduction to Surgery</h3>
+                        <p data-en="Fundamental concepts and techniques for new practitioners entering the field." data-ar="المفاهيم والتقنيات الأساسية للممارسين الجدد الذين يدخلون المجال.">Fundamental concepts and techniques for new practitioners entering the field.</p>
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span data-en="4 weeks" data-ar="4 أسابيع">4 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-laptop"></i>
+                                <span data-en="Online + Hands-on" data-ar="عبر الإنترنت + عملي">Online + Hands-on</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline">
+                            <span data-en="Enroll Now" data-ar="سجل الآن">Enroll Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="course-card featured">
+                    <div class="course-badge" data-en="Most Popular" data-ar="الأكثر شعبية">Most Popular</div>
+                    <div class="course-header">
+                        <div class="course-level advanced" data-en="Advanced" data-ar="متقدم">Advanced</div>
+                        <div class="course-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <h3 data-en="Complex Reconstruction" data-ar="إعادة البناء المعقدة">Complex Reconstruction</h3>
+                        <p data-en="Advanced techniques for handling complex reconstructive cases and procedures." data-ar="تقنيات متقدمة للتعامل مع حالات وإجراءات إعادة البناء المعقدة.">Advanced techniques for handling complex reconstructive cases and procedures.</p>
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span data-en="8 weeks" data-ar="8 أسابيع">8 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-hospital"></i>
+                                <span data-en="Intensive Workshop" data-ar="ورشة مكثفة">Intensive Workshop</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">
+                            <span data-en="Enroll Now" data-ar="سجل الآن">Enroll Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-header">
+                        <div class="course-level specialized" data-en="Specialized" data-ar="متخصص">Specialized</div>
+                        <div class="course-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <h3 data-en="Digital Implantology" data-ar="زراعة الأسنان الرقمية">Digital Implantology</h3>
+                        <p data-en="Master digital technologies and modern approaches in implant planning." data-ar="إتقان التقنيات الرقمية والأساليب الحديثة في تخطيط الزراعة.">Master digital technologies and modern approaches in implant planning.</p>
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span data-en="6 weeks" data-ar="6 أسابيع">6 weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-sync-alt"></i>
+                                <span data-en="Hybrid Learning" data-ar="تعلم مختلط">Hybrid Learning</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline">
+                            <span data-en="Enroll Now" data-ar="سجل الآن">Enroll Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer with Logo -->
+    <footer id="contact" class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <img src="logo.svg" alt="Brad Team Academy" class="footer-logo-img">
+                        </div>
+                        <div class="brand-info">
+                            <h3 data-en="BRAD TEAM ACADEMY" data-ar="أكاديمية فريق براد">BRAD TEAM ACADEMY</h3>
+                            <p data-en="Transforming lives through excellence in medical education and cutting-edge surgical training." data-ar="تحويل الحياة من خلال التميز في التعليم الطبي والتدريب الجراحي المتطور.">Transforming lives through excellence in medical education and cutting-edge surgical training.</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                            <ul>
+                                <li><a href="#hero" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                                <li><a href="#articles" data-en="Research" data-ar="البحوث">Research</a></li>
+                                <li><a href="#cases" data-en="Cases" data-ar="الحالات">Cases</a></li>
+                                <li><a href="#team" data-en="Team" data-ar="الفريق">Team</a></li>
+                                <li><a href="#courses" data-en="Courses" data-ar="الدورات">Courses</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="link-group">
+                            <h4 data-en="Programs" data-ar="البرامج">Programs</h4>
+                            <ul>
+                                <li><a href="#" data-en="Beginner Courses" data-ar="دورات المبتدئين">Beginner Courses</a></li>
+                                <li><a href="#" data-en="Advanced Training" data-ar="التدريب المتقدم">Advanced Training</a></li>
+                                <li><a href="#" data-en="Specialized Programs" data-ar="البرامج المتخصصة">Specialized Programs</a></li>
+                                <li><a href="#" data-en="Certification" data-ar="الشهادات">Certification</a></li>
+                                <li><a href="#" data-en="Workshops" data-ar="ورش العمل">Workshops</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="link-group">
+                            <h4 data-en="Resources" data-ar="الموارد">Resources</h4>
+                            <ul>
+                                <li><a href="#" data-en="Research Papers" data-ar="الأوراق البحثية">Research Papers</a></li>
+                                <li><a href="#" data-en="Case Studies" data-ar="دراسات الحالة">Case Studies</a></li>
+                                <li><a href="#" data-en="Medical Library" data-ar="المكتبة الطبية">Medical Library</a></li>
+                                <li><a href="#" data-en="Student Portal" data-ar="بوابة الطلاب">Student Portal</a></li>
+                                <li><a href="#" data-en="Support Center" data-ar="مركز الدعم">Support Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4 data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span data-en="Email" data-ar="البريد الإلكتروني">Email</span>
+                                    <a href="mailto:info@bradteamacademy.com">info@bradteamacademy.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span data-en="Phone" data-ar="الهاتف">Phone</span>
+                                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span data-en="Address" data-ar="العنوان">Address</span>
+                                    <p data-en="123 Medical Center Drive<br>Healthcare City, HC 12345" data-ar="123 شارع المركز الطبي<br>مدينة الرعاية الصحية، HC 12345">123 Medical Center Drive<br>Healthcare City, HC 12345</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="newsletter">
+                            <h5 data-en="Stay Updated" data-ar="ابق على اطلاع">Stay Updated</h5>
+                            <p data-en="Subscribe to our newsletter for the latest updates" data-ar="اشترك في نشرتنا الإخبارية للحصول على آخر التحديثات">Subscribe to our newsletter for the latest updates</p>
+                            <form class="newsletter-form">
+                                <input type="email" data-placeholder-en="Enter your email" data-placeholder-ar="أدخل بريدك الإلكتروني" placeholder="Enter your email" required>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p data-en="© 2025 Brad Team Academy. All rights reserved." data-ar="© 2025 أكاديمية فريق براد. جميع الحقوق محفوظة.">&copy; 2025 Brad Team Academy. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</a>
+                        <a href="#" data-en="Terms of Service" data-ar="شروط الخدمة">Terms of Service</a>
+                        <a href="#" data-en="Cookie Policy" data-ar="سياسة ملفات تعريف الارتباط">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
